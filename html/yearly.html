@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang=en>
+	<head>
+		<meta charset="utf-8">
+		<title>Life Management</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<script type="text/javascript" src="../css/bootstrap.js"></script>
+		<link href="../css/bootstrap.css" rel="stylesheet">
+		<link href="../css/bootstrap-theme.css" rel="stylesheet">
+		<link href="../css/yearly.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="header-bar">
+			<div class="title">
+				Goals By Year
+			</div>
+			<div id="yeardiv" class="dropdown-container">
+				<button class="btn btn-primary dropdown-toggle pull-right"
+						type="button"
+						data-toggle="dropdown">
+						Year
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu pull-right">
+					<li><a href="#">2017</a></li>
+					<li><a href="#">2016</a></li>
+				</ul>
+			</div>
+			<div class="add-goal-button">
+				<button class="btn btn-default"
+						type="button">
+						Add
+				</button>
+			</div>
+		</div>
+		<div id="main-area" style="height:100%;background-color:#F0F00F;padding-top:8%;z-index=-1;overflow:scroll">
+			<ul class="list-group goal-block" style="z-index:inherit;list-style:inside">
+				<a href="#" class="list-group-item goal-item" style="z-index:inherit">
+					item1
+					<span class="glyphicon glyphicon-ok" style="display:none;float:right"></span>
+					<span class="badge" style="float:right;margin-right:5px">Q1</span>
+				</a>
+				<a href="#" class="list-group-item goal-item" style="z-index:inherit">
+					item2
+					<span class="glyphicon glyphicon-ok" style="display:block;float:right"></span>
+					<span class="badge" style="float:right;margin-right:5px">Q2</span>
+				</a>
+			</ul>
+		</div>
+	</body>
+	<script type="text/javascript">
+	</script>
+</html>

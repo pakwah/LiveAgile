@@ -1,0 +1,60 @@
+.header-bar {
+	position: fixed;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	top: 0;
+	background-color: #55F604;
+	width: 100%;
+	float: left;
+	z-index: 3;
+}
+
+.title {
+	font-weight: bold;
+	float: left;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+	//background-color: #04B8F6;
+	width: 70%;
+}
+
+.dropdown-container {
+	float: left;
+	position: relative;
+	//background-color: #f62f04;
+	width: 20%;
+	padding-right: 20px;
+	padding-top: 5px;
+}
+
+.add-goal-button {
+	float: left;
+	position: relative;
+	//background-color: #0FF0C7;
+	width: 10%;
+	padding-top: 5px;
+}
+
+#main-area {
+	position: absolute;
+	width: 100%;
+	//margin-top: 30px;
+}
+
+.goal-block {
+	background-color: #F00F83;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.list-group-item.goal-item {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}

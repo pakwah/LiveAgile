@@ -1,0 +1,77 @@
+.header-bar {
+	position: fixed;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	top: 0;
+	background-color: #55F604;
+	width: 100%;
+	z-index: 3;
+    opacity: 1;
+}
+
+.title {
+	font-weight: bold;
+    display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	//background-color: #04B8F6;
+	width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container {
+    //background: #0F79F0;
+    clear: both;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.edit-goal-button {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.add-task-button {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.delete-goal-button {
+    margin-right:10px;
+    display: inline-block;
+}
+
+#sortable {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    //background-color: #354F6D;
+}
+
+.list-group-item.task-item {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.task-button-span {
+    margin-top: -5px;
+}
+
+.task-button {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 3px;
+    margin-right: 3px;
+    //height: 80%;
+}
